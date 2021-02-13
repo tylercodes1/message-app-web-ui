@@ -1,9 +1,8 @@
-import logo from './logo.svg'
 import './App.css'
-import Yohama from './Pages/Yohama/Yohama'
+import Chatroom from './Pages/Chatroom/Chatroom'
 
 function App() {
-   return <Yohama />
+   return <Chatroom />
 }
 
 export default App
