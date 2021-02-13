@@ -1,8 +1,8 @@
 import './App.css'
-import Chatroom from './Pages/Chatroom/Chatroom'
+import ChatroomPage from './Pages/ChatroomPage/ChatroomPage'
 
 function App() {
-   return <Chatroom />
+   return <ChatroomPage />
 }
 
 export default App
