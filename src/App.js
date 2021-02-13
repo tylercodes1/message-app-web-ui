@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Yohama from "./Pages/Yohama/Yohama";
+import logo from './logo.svg'
+import './App.css'
+import Yohama from './Pages/Yohama/Yohama'
 
 function App() {
-  return <Yohama />;
+   return <Yohama />
 }
 
-export default App;
+export default App
