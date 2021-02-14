@@ -12,9 +12,7 @@ export default function Message(props) {
             props.userSent ? 'message-container user-sent' : 'message-container'
          }
       >
-         <p>
-            {props.message} and {props.name}
-         </p>
+         <p>{props.message}</p>
       </div>
    )
 }
