@@ -6,13 +6,17 @@
 }
 
 .message-view {
+   overflow-y: auto;
    display: flex;
-   flex-direction: column;
+   flex-flow: column nowrap;
    align-items: center;
-   justify-content: flex-end;
    height: calc(100% - 50px);
    width: 100%;
    background-color: lightcoral;
+}
+
+.message-view > :first-child {
+   margin-top: auto !important;
 }
 
 .chat-bar {

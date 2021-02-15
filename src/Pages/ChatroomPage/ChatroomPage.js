@@ -12,7 +12,16 @@ export default function ChatroomPage() {
          recipient: 'loggedInUser',
          sender: 'otherUser',
       },
-      { message: 'world', recipient: 'otherUser', sender: 'loggedInUser' },
+      {
+         message: `This is v0 of the chatting feature!`,
+         recipient: 'otherUser',
+         sender: 'loggedInUser',
+      },
+      {
+         message: `We currently support serverless, authenticationless, self messaging only LMFAO`,
+         recipient: 'loggedInUser',
+         sender: 'otherUser',
+      },
    ])
    const users = [
       { name: 'Tyler', username: 'loggedInUser' },
