@@ -1,0 +1,39 @@
+.chatroom-page {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.message-view {
+   overflow-y: auto;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   height: calc(100% - 50px);
+   width: 100%;
+   background-color: lightcoral;
+}
+
+.message-view > :first-child {
+   margin-top: auto !important;
+}
+
+.chat-bar {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100vw;
+   height: 50px;
+   bottom: 0px;
+   position: fixed;
+
+   background-color: lightblue;
+}
+
+.chat-input {
+   width: 85%;
+   height: 30px;
+   font-size: 20px;
+   outline: none;
+}
